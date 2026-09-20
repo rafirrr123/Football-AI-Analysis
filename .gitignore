@@ -1,0 +1,30 @@
+# Environment secrets (Never commit your API keys)
+.env
+
+# Model weights (Too large for Git)
+*.pt
+*.onnx
+*.engine
+
+# Video inputs & outputs
+*.mp4
+*.avi
+*.mov
+ftt.mp4
+vid_result.mp4
+thermal.mp4
+pitch_radar_only.mp4
+
+# Python cache & virtual environments
+__pycache__/
+*.pyc
+venv/
+.venv/
+env/
+
+# OS / Editor files
+.DS_Store
+.vscode/
+.idea/
+
+football-players-detection-20/

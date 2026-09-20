@@ -1,0 +1,13 @@
+train: /content/test_project-2/train/images
+val: /content/test_project-2/valid/images
+test: /content/test_project-2/test/images
+
+nc: 5
+names: ['Arbitre', 'Ballon', 'Football', 'Gardien', 'Joueur']
+
+roboflow:
+  workspace: azami-youssef
+  project: test_project-3cocv
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/azami-youssef/test_project-3cocv/dataset/2
